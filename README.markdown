@@ -10,3 +10,8 @@
 
 A Vim filetype plugin for javascript that uses node-jslint as the linter.
 The output of node-jslint is fed into the quickfix list of Vim.
+
+# Implementation reference #
+
+- http://technotales.wordpress.com/2011/05/21/node-jslint-and-vim/
+- https://github.com/nvie/vim-pyflakes
