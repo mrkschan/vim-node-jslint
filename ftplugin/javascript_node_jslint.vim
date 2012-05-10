@@ -41,8 +41,8 @@ if !exists("*JSLint()")
                      \%E%>\ %##%n\ %m,%Z%.%#Line\ %l\\,\ Pos\ %c,
                      \%-G%f\ is\ OK.,%-Q
         let &makeprg=s:jslint_cmd
-        silent! make! %
         let &shellpipe=">"
+        silent! make! %
 
         " restore make settings
         let &errorformat=l:old_efm
