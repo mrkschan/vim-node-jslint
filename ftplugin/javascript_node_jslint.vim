@@ -29,6 +29,7 @@ if !exists("*JSLint()")
         " store old make settings (to restore later)
         let l:old_efm=&errorformat
         let l:old_mp=&makeprg
+        let l:old_sp=&shellpipe
 
         " write any changes before continuing
         if &readonly == 0
@@ -41,10 +42,12 @@ if !exists("*JSLint()")
                      \%-G%f\ is\ OK.,%-Q
         let &makeprg=s:jslint_cmd
         silent! make! %
+        let &shellpipe=">"
 
         " restore make settings
         let &errorformat=l:old_efm
         let &makeprg=l:old_mp
+        let &shellpipe=l:old_sp
 
         " open cwindow
         let has_results=getqflist() != []
