@@ -37,7 +37,7 @@ if !exists("*JSLint()")
 
         " perform the make itself
         setlocal efm=%-P%f,
-                     \%E%>\ #%n\ %m,%Z%.%#Line\ %l\\,\ Pos\ %c,
+                     \%E%>\ %##%n\ %m,%Z%.%#Line\ %l\\,\ Pos\ %c,
                      \%-G%f\ is\ OK.,%-Q
         let &makeprg=s:jslint_cmd
         silent! make! %
