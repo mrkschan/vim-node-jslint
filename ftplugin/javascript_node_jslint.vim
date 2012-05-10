@@ -3,7 +3,7 @@
 " Language:     Javascript (ft=javasript)
 " Maintainer:   KS Chan <mrkschan@gmail.com>
 " Version:      Vim 7 (may work with lower Vim versions, but not tested)
-" URL:          http://github.com/nvie/vim-pyflakes
+" URL:          https://github.com/mrkschan/vim-node-jslint
 " NOTICE:       The implementation of this js linter is referencing
 "               http://github.com/nvie/vim-pyflakes
 "
