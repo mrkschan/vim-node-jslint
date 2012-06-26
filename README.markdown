@@ -4,7 +4,7 @@
 2.  Install npm (see https://github.com/isaacs/npm#readme)
 3.  Install node-jslint by `npm install jslint -g`
 4.  Enable vim ftplugin and put the stuff under ftplugin/ of this repository into your .vim/ftplugin/ directory
-5.  Enjoy :)
+5.  Enjoy using this vim ftplugin by pressing `F7` when editing your javascript file :)
 
 # Introduction #
 
